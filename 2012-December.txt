@@ -1,0 +1,40 @@
+From fredricj at users.berlios.de  Mon Dec 10 12:41:43 2012
+From: fredricj at users.berlios.de (Fredric Johansson)
+Date: Mon, 10 Dec 2012 12:41:43 +0100
+Subject: [Mirageiv-announce] Mirage 1.0_pre1 released
+Message-ID: <CA+NOQxFc13-n97R9k0SDSmmY7STQ6uPHmn2CTu251inCArJJ8g@mail.gmail.com>
+
+Hi!
+I did a prerelease of mirage v1.0 to get some wider testing.
+This prerelease should for instance solve problems with translations
+not being used.
+
+Changelog
++ Added Numerical Aware Comparison (numacomp) as a sorting option.
++ Added Exif data reading on supported files through pyexiv2
++ Added Image rotation based on Exif data
++ Added command line option to not sort images
++ Added hebrew translation
++ Bug: Fixing an issue where the Wrap?-dialog would hangup in
+slideshow mode when wrap mode was set to ask
++ Bug: Fixed broken support for non-ASCII filenames
++ Bug: Rename overwrote existing files without user confirmation (bug
+#18678, #18682)
++ Changes: Changed how files are registered in recent docs
++ Changes: various code updates
++ Changes: Behaviour of slideshow mode modified
++ Changes: Open in fullscreen only if there are images passed to mirage
++ Changes: Should work correctly on vertical dual monitor setups.
++ Changes: The config is now stored as json
++ Changes: middle-mouse click now toggles zoom between 1:1 and fit to window.
++ Features: Can now browse between subfolders
++ Features: Double-click to enter leave fullscreen
++ Features: Copy image to clipboard
+
+
+DOWNLOAD:
+https://developer.berlios.de/project/showfiles.php?group_id=6637
+
+
+//Fredric
+
